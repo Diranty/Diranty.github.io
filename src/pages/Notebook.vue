@@ -14,7 +14,7 @@
     </div>
     <div class="row justify-center"><q-btn label="A/S 센터 사이트 바로가기" class="btn1"/></div>
     <div class="row justify-center"><q-btn label="A/S 센터 전화 바로걸기" class="btn2"/></div>
-    <div class="row justify-center">
+    <div class="row justify-center q-pb-lg">
       <router-link :to="'/manage'" style="text-decoration: none; ">
         <q-btn label="돌아가기" class="btn3 text-bold"/>
       </router-link>
@@ -33,18 +33,6 @@
   background-color: #3f9af7
   color: white
 
-.notebook__img
-  width: 300px
-  height: 400px
-  padding: 30px
-  @media (max-width: $breakpoint-sm)
-    width: 200px
-    height: 300px
-    padding: 30px
-  @media (max-width: $breakpoint-xs)
-    width: 90px
-    height: 150px
-    padding: 10px
 </style>
 
 <script>

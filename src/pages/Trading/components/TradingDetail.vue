@@ -31,7 +31,7 @@
       </div>
     </div>
     <h5 class="text-center text-bold">구찌 가방 팔아요</h5>
-    <div class="q-px-md">
+    <div class="q-px-md q-pb-lg">
       작년 여행갔을때 구매했습니다. <br>
       눈에 띄지는 않지만 약간의 생활기스 있으며, 구김 살짝 있어요! <br>
       교환/환불 불가하며 충분히 고민하시고 연락주세요~
@@ -46,7 +46,7 @@
     </div>
     <div class="q-pl-lg text-h6">- 구매일자 : 2019.12.17</div>
     <hr>
-    <div class="row items-center">
+    <div class="row items-center q-pb-lg">
       <h4 class="q-pl-xl">800,000원</h4>
       <q-space/>
       <router-link :to="'/chat'" style="text-decoration: none;">

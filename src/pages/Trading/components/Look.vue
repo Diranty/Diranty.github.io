@@ -46,7 +46,7 @@
       </div>
     </div>
     <hr>
-    <div class="row justify-center">
+    <div class="row justify-center q-py-lg">
       <router-link :to="'detail'" style="text-decoration: none">
         <q-btn class="as__btn text-bold" label="상품창"/>
       </router-link>

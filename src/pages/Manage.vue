@@ -19,7 +19,7 @@
         </router-link>
       </div>
     </div>
-    <div class="row justify-center">
+    <div class="row justify-center q-pb-lg">
       <router-link :to="'/register'" style="text-decoration: none;">
         <q-btn class="btn text-bold" label="보증서 등록" flat></q-btn>
       </router-link>

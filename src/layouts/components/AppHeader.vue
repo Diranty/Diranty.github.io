@@ -7,7 +7,7 @@
     </q-toolbar>
     <q-toolbar class="row text-black">
       <q-space/>
-      <div>조성택 님</div>
+      <div>홍길동 님</div>
       <q-btn flat icon="mdi-menu">
         <q-menu>
           <q-list style="min-width: 150px">
