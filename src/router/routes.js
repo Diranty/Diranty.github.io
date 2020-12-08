@@ -16,6 +16,18 @@ const routes = [
     path: '/trading',
     component: () => import('pages/Trading')
   },
+  {
+    path: '/detail',
+    component: () => import('pages/Trading/components/TradingDetail')
+  },
+  {
+    path: '/look',
+    component: () => import('pages/Trading/components/Look')
+  },
+  {
+    path: '/chat',
+    component: () => import('pages/Chatting')
+  },
 
   // Always leave this as last one,
   // but you can also remove it

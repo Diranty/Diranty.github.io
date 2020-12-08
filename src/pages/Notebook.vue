@@ -1,5 +1,5 @@
 <template>
-  <div class="q-px-xl">
+  <div class="content q-px-xl">
     <h4>보증서 정보</h4>
     <h6>상품명 : 노트북 xzd</h6>
     <div class="row justify-center">
@@ -12,9 +12,14 @@
       <q-radio v-model="open" val="1" label="허용" />
       <q-radio v-model="open" val="2" label="비허용" />
     </div>
-    <q-btn label="A/S 센터 사이트 바로가기" class="btn1"/>
-    <q-btn label="A/S 센터 전화 바로걸기" class="btn2"/>
-    <q-btn label="돌아가기" class="btn3"/>
+    <div class="row justify-center"><q-btn label="A/S 센터 사이트 바로가기" class="btn1"/></div>
+    <div class="row justify-center"><q-btn label="A/S 센터 전화 바로걸기" class="btn2"/></div>
+    <div class="row justify-center">
+      <router-link :to="'/manage'" style="text-decoration: none; ">
+        <q-btn label="돌아가기" class="btn3 text-bold"/>
+      </router-link>
+    </div>
+
   </div>
 </template>
 
@@ -27,6 +32,7 @@
 .btn3
   background-color: #3f9af7
   color: white
+  width: 280px
 </style>
 
 <script>

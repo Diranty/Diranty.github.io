@@ -1,5 +1,5 @@
 <template>
-  <div class="q-px-xl">
+  <div class="content q-px-xl">
     <h4>물품 추가</h4>
     <div class="row">
       <div class="q-pt-sm q-pr-md">상품명 :</div>
@@ -8,9 +8,11 @@
       </router-link>
     </div>
     <h6>보증서 사진 등록</h6>
-    <q-btn class="pic-reg">
-      <h6 class="text-bold">사진 등록 <br> + </h6>
-    </q-btn>
+    <div class="row justify-center">
+      <q-btn class="pic-reg">
+        <h6 class="text-bold">+<br>사진 등록</h6>
+      </q-btn>
+    </div>
     <div class="row q-pt-lg">
       <div class="text-bold q-pt-sm q-pr-lg">중고 마켓 공개</div>
       <q-radio v-model="open" val="1" label="허용" />
@@ -20,7 +22,9 @@
       <div class="q-pr-md">특이사항 : </div>
       <input type="text">
     </div>
-    <q-btn class="reg q-my-md" label="보증서 등록" flat></q-btn>
+    <div class="row justify-center">
+      <q-btn class="reg q-my-md text-bold" label="보증서 등록" flat @click="alert"></q-btn>
+    </div>
   </div>
 </template>
 
@@ -28,19 +32,12 @@
 .pic-reg
   width: 200px
   height: 150px
-  @media (max-width: $breakpoint-xs)
-    margin-left: 60px
+
 .reg
   background: #3f9af7
   color: white
   width: 180px
-  left: 42%
-  @media (max-width: $breakpoint-md)
-    left: 40%
-  @media (max-width: $breakpoint-sm)
-    left: 35%
-  @media (max-width: $breakpoint-xs)
-    left: 20%
+
 </style>
 
 <script>
@@ -49,6 +46,17 @@ export default {
   data () {
     return {
       open: '1'
+    }
+  },
+  methods: {
+    alert () {
+      this.$q.dialog({
+        title: '보증서 등록',
+        message: '등록이 성공적으로 완료되었습니다.',
+        ok: true
+      }).onOk(() => {
+        this.$router.push('/')
+      })
     }
   }
 }

@@ -12,11 +12,13 @@
         </q-btn>
       </router-link>
     </div>
-    <router-link :to="'/trading'">
-      <q-btn class="box3 absolute-center" flat>
-      <div>중고거래 하기</div>
-    </q-btn>
+    <div class="row justify-center">
+      <router-link :to="'/trading'" style="text-decoration: none; color: black;">
+      <q-btn class="box3" flat>
+        <div>중고거래 하기</div>
+      </q-btn>
     </router-link>
+    </div>
   </div>
 </template>
 
@@ -33,11 +35,11 @@
 .box3
   background: #3f9af7
   color: white
-  width: 180px
-  height: 100px
+  width: 200px
 
 .box1, .box2, .box3
   font-size: 22px
+  font-weight: bold
 
 </style>
 

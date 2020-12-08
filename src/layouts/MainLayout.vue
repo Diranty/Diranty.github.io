@@ -9,7 +9,7 @@
 
 <style lang="sass">
 .content
-  font-family: "BMHANNA_11yrs_ttf", Arial, Helvetica, sans-serif
+  font-family: "NanumBarunGothic", Arial, Helvetica, sans-serif
 </style>
 
 <script>

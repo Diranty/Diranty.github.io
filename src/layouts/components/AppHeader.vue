@@ -1,5 +1,5 @@
 <template>
-  <q-header class="bg-white" >
+  <q-header class="content bg-white" >
     <q-toolbar class="logo_icon">
       <router-link :to="'/'">
         <img class="logo absolute-center" src="icons/logo.png">

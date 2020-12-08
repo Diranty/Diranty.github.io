@@ -1,10 +1,10 @@
 <template>
-  <div class="q-px-xl">
+  <div class="content q-px-xl">
     <h4>보증서 관리</h4>
     <div class="row justify-center text-center">
       <div class="q-px-md">
         <div class="row"><q-space/><q-btn flat label="X" @click="del = true"/></div>
-        <img width="120px" src="https://d1icd6shlvmxi6.cloudfront.net/gsc/Y148E8/aa/a1/98/aaa19862a6ab4288bf5e4e98ad6e43f5/images/%EB%B3%B4%EC%A6%9D%EC%84%9C%EA%B4%80%EB%A6%AC%ED%8E%98%EC%9D%B4%EC%A7%80/image_u188.jpg?token=0669da53020f017d2ae58b2bad83390f0f2b03af8e69ddeabcdf1ff665d979e7">
+        <img width="100px" src="https://d1icd6shlvmxi6.cloudfront.net/gsc/Y148E8/aa/a1/98/aaa19862a6ab4288bf5e4e98ad6e43f5/images/%EB%B3%B4%EC%A6%9D%EC%84%9C%EA%B4%80%EB%A6%AC%ED%8E%98%EC%9D%B4%EC%A7%80/image_u188.jpg?token=0669da53020f017d2ae58b2bad83390f0f2b03af8e69ddeabcdf1ff665d979e7">
         <div>노트북 xzd</div>
         <router-link :to="'/notebook'" style="text-decoration: none; color: black">
           <q-btn class="q-mt-md" style="width: 100px" label="보증서"/>
@@ -12,16 +12,18 @@
       </div>
       <div class="q-px-md">
         <div class="row"><q-space/><q-btn flat label="X" @click="del = true"/></div>
-        <img width="120px" src="https://d1icd6shlvmxi6.cloudfront.net/gsc/Y148E8/aa/a1/98/aaa19862a6ab4288bf5e4e98ad6e43f5/images/%EB%B3%B4%EC%A6%9D%EC%84%9C%EA%B4%80%EB%A6%AC%ED%8E%98%EC%9D%B4%EC%A7%80/image_u189.jpg?token=59d60fdbb6536ee2c8f65a6da884d4d273051bf032d138331e581b00bad98d1c">
+        <img width="100px" src="https://d1icd6shlvmxi6.cloudfront.net/gsc/Y148E8/aa/a1/98/aaa19862a6ab4288bf5e4e98ad6e43f5/images/%EB%B3%B4%EC%A6%9D%EC%84%9C%EA%B4%80%EB%A6%AC%ED%8E%98%EC%9D%B4%EC%A7%80/image_u189.jpg?token=59d60fdbb6536ee2c8f65a6da884d4d273051bf032d138331e581b00bad98d1c">
         <div>시계 yy7</div>
         <router-link :to="'/watch'" style="text-decoration: none; color: black">
           <q-btn class="q-mt-md" style="width: 100px" label="보증서"/>
         </router-link>
       </div>
     </div>
-    <router-link :to="'/register'" style="text-decoration: none;">
-      <q-btn class="btn" label="보증서 등록" flat></q-btn>
-    </router-link>
+    <div class="row justify-center">
+      <router-link :to="'/register'" style="text-decoration: none;">
+        <q-btn class="btn text-bold" label="보증서 등록" flat></q-btn>
+      </router-link>
+    </div>
     <q-dialog v-model="del" persistent>
       <q-card style="width: 400px">
         <q-card-section class="row items-center">
@@ -42,14 +44,8 @@
   background: #3f9af7
   color: white
   width: 180px
-  left: 42%
-  margin-top: 30px
-  @media (max-width: $breakpoint-md)
-    left: 40%
-  @media (max-width: $breakpoint-sm)
-    left: 35%
-  @media (max-width: $breakpoint-xs)
-    left: 20%
+  margin: 30px 0
+
 </style>
 
 <script>
