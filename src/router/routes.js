@@ -4,8 +4,17 @@ const routes = [
     path: '/',
     component: () => import('layouts/MainLayout.vue'),
     children: [
-      { path: '', component: () => import('pages/Index.vue') }
+      { path: '', component: () => import('pages/Index.vue') },
+      { path: 'manage', component: () => import('pages/Manage') },
+      { path: 'notebook', component: () => import('pages/Notebook') },
+      { path: 'watch', component: () => import('pages/Watch') },
+      { path: 'register', component: () => import('pages/Register') },
+      { path: 'product', component: () => import('pages/ProductSelect') }
     ]
+  },
+  {
+    path: '/trading',
+    component: () => import('pages/Trading')
   },
 
   // Always leave this as last one,
