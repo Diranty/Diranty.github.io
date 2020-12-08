@@ -7,11 +7,15 @@
         <q-btn label="상품 찾으러 가기"/>
       </router-link>
     </div>
-    <h6>보증서 사진 등록</h6>
+    <div class="text-h6 q-py-lg">보증서 사진 등록</div>
     <div class="row justify-center">
-      <q-btn class="pic-reg">
-        <h6 class="text-bold">+<br>사진 등록</h6>
-      </q-btn>
+      <q-file outlined v-model="model" label="사진 업로드">
+        <template v-slot:append>
+          <q-avatar>
+            <q-icon name="mdi-file-upload-outline" size="md"/>
+          </q-avatar>
+        </template>
+      </q-file>
     </div>
     <div class="row q-pt-lg">
       <div class="text-bold q-pt-sm q-pr-lg">중고 마켓 공개</div>
@@ -29,10 +33,6 @@
 </template>
 
 <style lang="sass">
-.pic-reg
-  width: 200px
-  height: 150px
-
 .reg
   background: #3f9af7
   color: white
@@ -45,7 +45,8 @@ export default {
   name: 'Register',
   data () {
     return {
-      open: '1'
+      open: '1',
+      model: null
     }
   },
   methods: {
