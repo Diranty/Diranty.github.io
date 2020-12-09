@@ -28,8 +28,8 @@
       <div class="q-py-md">
         <div class="text-h6 q-py-md">입금 계좌</div>
         <div class="row">
-          <q-select class="col-4" outlined v-model="model" :options="options" label="은행" />
-          <input class="col-8" type="text" placeholder="계좌번호를 입력하세요.">
+          <q-select class="col-5" outlined v-model="model" :options="options" label="은행" />
+          <input class="col-7" type="text" placeholder="계좌번호를 입력하세요.">
         </div>
       </div>
       <div class="row justify-center q-py-lg">
