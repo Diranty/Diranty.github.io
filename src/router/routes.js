@@ -9,7 +9,8 @@ const routes = [
       { path: 'notebook', component: () => import('pages/Notebook') },
       { path: 'watch', component: () => import('pages/Watch') },
       { path: 'register', component: () => import('pages/Register') },
-      { path: 'product', component: () => import('pages/ProductSelect') }
+      { path: 'product', component: () => import('pages/ProductSelect') },
+      { path: '/account', component: () => import('pages/Account') }
     ]
   },
   {

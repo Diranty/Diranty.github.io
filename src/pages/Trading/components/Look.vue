@@ -60,14 +60,15 @@
 <style lang="sass">
 .product__text
   font-size: 20px
-  color: #3f9af7
+  color: #b89130
 .product__box
   border: 1px solid black
 .as__btn
   width: 100px
-  background-color: #3f9af7
-  color: white
   margin: 10px
+  background: black
+  color: #b89130
+  border: 4px solid #b89130
 
 </style>
 

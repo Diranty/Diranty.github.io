@@ -74,7 +74,7 @@
 <style lang="sass">
 .product__text
   font-size: 20px
-  color: #3f9af7
+  color: #b89130
 .product__box
   border: 1px solid black
 </style>

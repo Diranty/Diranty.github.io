@@ -34,8 +34,9 @@
 
 <style lang="sass">
 .reg
-  background: #3f9af7
-  color: white
+  background: black
+  color: #b89130
+  border: 4px solid #b89130
   width: 180px
 
 </style>

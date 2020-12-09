@@ -41,9 +41,10 @@
 <style lang="sass">
 .chat__btn
   width: 100px
-  background-color: #3f9af7
-  color: white
   margin: 10px
+  background: black
+  color: #b89130
+  border: 4px solid #b89130
 </style>
 
 <script>

@@ -59,12 +59,13 @@
 <style lang="sass">
 .product__text
   font-size: 20px
-  color: #3f9af7
+  color: #b89130
 .product__box
   border: 1px solid black
 .chat
-  background-color: #3f9af7
-  color: white
+  background: black
+  color: #b89130
+  border: 4px solid #b89130
   height: 60px
   width: 120px
 </style>

@@ -1,7 +1,7 @@
 <template>
   <div class="content">
     <div class="row justify-center">
-      <router-link :to="'/register'" style="text-decoration: none; color: black;">
+      <router-link :to="'/register'" style="text-decoration: none; color: #b89130;">
         <q-btn class="box1" flat>
           <div>+<br>보증서 추가</div>
         </q-btn>
@@ -28,14 +28,16 @@
   height: 110px
   margin: 50px 15px
 .box1
-  border: 1px solid black
+  border: 1px solid #b89130
 .box2
-  background: #3f9af7
-  color: white
+  background: black
+  color: #b89130
+  border: 4px solid #b89130
 .box3
-  background: #3f9af7
-  color: white
+  background: black
+  color: #b89130
   width: 200px
+  border: 4px solid #b89130
 
 .box1, .box2, .box3
   font-size: 22px

@@ -17,9 +17,11 @@
             <q-item clickable v-close-popup>
               <q-item-section>거래 내역</q-item-section>
             </q-item>
-            <q-item clickable v-close-popup>
-              <q-item-section>계좌 조회</q-item-section>
-            </q-item>
+            <router-link :to="'/account'" style="text-decoration: none; color: black;">
+              <q-item clickable v-close-popup>
+                <q-item-section>내 계좌</q-item-section>
+              </q-item>
+            </router-link>
           </q-list>
         </q-menu>
       </q-btn>
