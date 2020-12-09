@@ -4,7 +4,7 @@
     <h6>상품명 : 노트북 xzd</h6>
     <div class="row justify-center">
       <img width="90px" height="100px" class="q-px-sm" src="image/notebook.jpg">
-      <img width="90px" height="100px" class="q-px-sm" src="image/1.jpg">
+      <img width="90px" height="100px" class="q-px-sm" src="image/n1.png">
       <img width="90px" height="100px" class="q-px-sm" src="image/2.jpg">
     </div>
     <div class="row q-py-md">

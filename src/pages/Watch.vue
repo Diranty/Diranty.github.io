@@ -4,7 +4,7 @@
     <h6>상품명 : 시계 yy7</h6>
     <div class="row justify-center">
       <img width="90px" height="100px" class="q-px-sm" src="image/watch.jpg">
-      <img width="90px" height="100px" class="q-px-sm" src="image/1.jpg">
+      <img width="90px" height="100px" class="q-px-sm" src="image/w1.jpg">
       <img width="90px" height="100px" class="q-px-sm" src="image/2.jpg">
     </div>
     <div class="row q-pt-lg">
