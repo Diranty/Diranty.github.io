@@ -9,7 +9,7 @@
       <th>관리</th>
       <tr align="center">
         <td><img src="image/card.png" width="70px" class="q-pt-sm"></td>
-        <td>농협카드 NH20 해봄카드</td>
+        <td>NH20 해봄카드</td>
         <td class="td__1"><q-btn label="삭제" @click="cart_del"/></td>
       </tr>
     </table>
@@ -22,7 +22,7 @@
       <th>관리</th>
       <tr align="center">
         <td><img src="image/nhlogo.png" width="70px" class="q-pt-sm"></td>
-        <td>농협은행 301-0000-0000</td>
+        <td>301-0000-00</td>
         <td class="td__1"><q-btn label="삭제" @click="account_del"/></td>
       </tr>
     </table>
