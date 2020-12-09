@@ -9,10 +9,10 @@
       <q-space/>
       <q-btn flat icon="mdi-magnify"/>
     </div>
-    <div class="product__box">
+    <hr>
+    <div>
       <div class="q-py-md">
         <div class="row">
-          <q-btn flat icon="mdi-account-outline"/>
           <q-space/>
           <q-btn flat icon="mdi-heart-outline"/>
           <q-btn flat icon="mdi-forum"/>
@@ -30,6 +30,7 @@
         </div>
       </div>
     </div>
+    <hr>
     <div class="q-px-lg">
       <div class="text-h6 q-py-md">1. 마모 수리(손잡이)</div>
       <div class="row">
@@ -47,11 +48,11 @@
     </div>
     <hr>
     <div class="row justify-center q-py-lg">
-      <router-link :to="'detail'" style="text-decoration: none">
-        <q-btn class="as__btn text-bold" label="상품창"/>
-      </router-link>
       <router-link :to="'chat'" style="text-decoration: none;">
         <q-btn class="as__btn text-bold" label="채팅하기"/>
+      </router-link>
+      <router-link :to="'pay'" style="text-decoration: none">
+        <q-btn class="as__btn text-bold" label="결제하기"/>
       </router-link>
     </div>
   </div>
@@ -61,10 +62,9 @@
 .product__text
   font-size: 20px
   color: #b89130
-.product__box
-  border: 1px solid black
 .as__btn
-  width: 100px
+  width: 110px
+  height: 50px
   margin: 10px
   background: black
   color: #b89130

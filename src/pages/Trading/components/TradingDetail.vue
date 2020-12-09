@@ -9,10 +9,10 @@
       <q-space/>
       <q-btn flat icon="mdi-magnify"/>
     </div>
-    <div class="product__box">
+    <hr>
+    <div>
       <div class="q-py-md">
         <div class="row">
-          <q-btn flat icon="mdi-account-outline"/>
           <q-space/>
           <q-btn flat icon="mdi-heart-outline"/>
           <q-btn flat icon="mdi-forum"/>
@@ -30,7 +30,18 @@
         </div>
       </div>
     </div>
-    <h5 class="text-center text-bold">구찌 가방 팔아요</h5>
+    <hr>
+    <div class="row q-py-xs items-center">
+      <q-icon class="q-pl-md" size="md" name="mdi-account-outline"/>
+      <div class="text-h6 q-pl-xs">김철수 님</div>
+      <q-space/>
+      <div>
+        <q-icon class="q-pr-md" name="mdi-alpha-a-circle-outline" color="red" size="md"/>
+        <div class="q-pl-sm" style="font-size: 11px">등급</div>
+      </div>
+    </div>
+    <hr>
+    <div class="text-center text-bold text-h5 q-py-md">구찌 가방 팔아요</div>
     <div class="q-px-md q-pb-lg">
       작년 여행갔을때 구매했습니다. <br>
       눈에 띄지는 않지만 약간의 생활기스 있으며, 구김 살짝 있어요! <br>
@@ -46,11 +57,17 @@
     </div>
     <div class="q-pl-lg text-h6">- 구매일자 : 2019.12.17</div>
     <hr>
-    <div class="row items-center q-pb-lg">
-      <h4 class="q-pl-xl">800,000원</h4>
+    <div class="row q-py-md q-pr-md items-center">
       <q-space/>
+      <div>가격</div>
+      <div class="text-h4 q-pl-sm">800,000원</div>
+    </div>
+    <div class="row justify-center q-pb-lg">
       <router-link :to="'/chat'" style="text-decoration: none;">
         <q-btn class="chat q-mr-lg text-bold" label="채팅하기"/>
+      </router-link>
+      <router-link :to="'/pay'" style="text-decoration: none;">
+        <q-btn class="chat q-mr-lg text-bold" label="결제하기"/>
       </router-link>
     </div>
   </div>
@@ -60,14 +77,13 @@
 .product__text
   font-size: 20px
   color: #b89130
-.product__box
-  border: 1px solid black
+
 .chat
   background: black
   color: #b89130
   border: 4px solid #b89130
-  height: 60px
-  width: 120px
+  height: 50px
+  width: 110px
 </style>
 
 <script>

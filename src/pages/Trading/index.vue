@@ -9,7 +9,8 @@
       <q-space/>
       <q-btn flat icon="mdi-magnify"/>
     </div>
-    <div class="product__box">
+    <hr>
+    <div>
       <div class="q-py-md">
         <div class="row">
           <q-btn flat icon="mdi-account-outline"/>
@@ -30,7 +31,8 @@
         </div>
       </div>
     </div>
-    <div class="product__box">
+    <hr>
+    <div>
       <div class="q-py-md">
         <div class="row">
           <q-btn flat icon="mdi-account-outline"/>
@@ -49,7 +51,8 @@
         </div>
       </div>
     </div>
-    <div class="product__box">
+    <hr>
+    <div>
       <div class="q-py-md">
         <div class="row">
           <q-btn flat icon="mdi-account-outline"/>
@@ -75,8 +78,6 @@
 .product__text
   font-size: 20px
   color: #b89130
-.product__box
-  border: 1px solid black
 </style>
 
 <script>

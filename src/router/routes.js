@@ -29,6 +29,10 @@ const routes = [
     path: '/chat',
     component: () => import('pages/Chatting')
   },
+  {
+    path: '/pay',
+    component: () => import('pages/Payment')
+  },
 
   // Always leave this as last one,
   // but you can also remove it

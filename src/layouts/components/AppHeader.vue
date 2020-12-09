@@ -7,7 +7,8 @@
     </q-toolbar>
     <q-toolbar class="row text-black">
       <q-space/>
-      <div>홍길동 님</div>
+      <div class="q-pr-xs">홍길동 님</div>
+      <q-icon name="mdi-alpha-s-circle-outline" color="red" size="sm"/>
       <q-btn flat icon="mdi-menu">
         <q-menu>
           <q-list style="min-width: 150px">

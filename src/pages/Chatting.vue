@@ -29,18 +29,19 @@
       </div>
     </div>
     <hr>
-    <div class="row justify-center">
-      <router-link :to="'detail'" style="text-decoration: none">
-        <q-btn class="chat__btn text-bold" label="상품창"/>
-      </router-link>
+    <div class="row justify-center q-pb-lg">
       <q-btn class="chat__btn text-bold" label="예약하기" @click="alert"/>
+      <router-link :to="'pay'" style="text-decoration: none">
+        <q-btn class="chat__btn text-bold" label="결제하기"/>
+      </router-link>
     </div>
   </div>
 </template>
 
 <style lang="sass">
 .chat__btn
-  width: 100px
+  width: 110px
+  height: 50px
   margin: 10px
   background: black
   color: #b89130
