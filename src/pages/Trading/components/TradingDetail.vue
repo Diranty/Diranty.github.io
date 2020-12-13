@@ -67,7 +67,7 @@
         <q-btn class="chat q-mr-lg text-bold" label="채팅하기"/>
       </router-link>
       <router-link :to="'/pay'" style="text-decoration: none;">
-        <q-btn class="chat q-mr-lg text-bold" label="결제하기"/>
+        <q-btn class="chat text-bold" label="결제하기"/>
       </router-link>
     </div>
   </div>

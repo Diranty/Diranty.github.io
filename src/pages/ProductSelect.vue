@@ -11,11 +11,11 @@
       <q-space/>
       <q-select v-model="brand" :options="brands" />
     </div>
-    <div class="row">
+    <!-- <div class="row">
       <h5>제품 선택</h5>
       <q-space/>
       <q-select v-model="product" :options="products" />
-    </div>
+    </div> -->
     <div class="row justify-center">
       <q-btn class="reg q-my-md text-bold" label="확인" flat @click="alert"></q-btn>
     </div>
