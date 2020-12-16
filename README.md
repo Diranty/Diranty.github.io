@@ -19,6 +19,40 @@ Diranty서비스는 소비자가 구매한 물품의 보증서와 영수증을 �
 # 🂠 서비스 구조 및 API 활용
 <img width="817" alt="5" src="https://user-images.githubusercontent.com/73805782/102321946-b2723800-3fc1-11eb-8c59-16bcd8ac09ba.png">
 
+# Quasar 프로젝트 시작 전
+## github 초기 환경 설정
+
+git hub 개인 계정 가입
+
+New organization → New repository 생성
+----------------------------------------------------
+organization과 repository 이름 같게 하면 홈페이지로 생성 가능
+
+organizationName / repositoryName.github.io
+
+ex) yuniflix / yuniflix.github.io
+----------------------------------------------------
+terminal에서: ssh (기술 블로그의 cheat sheet → ssh)
+
+terminal에서: cd .ssh → ls → cat id_rsa.pub
+
+생성된 ssh 복사해서 github setting → SSH 등록 (이때, ssh 설정했을 때 사용한 NAME@COMPANY.HOST 과 이름 동일하게 설정. 헷갈리지 않도록!)
+
+터미널 명령어
+
+pwd : 현재 내가 위치하고 있는 디렉토리의 절대경로
+
+cd .. : 현재 경로에서 나올 때
+
+해당 repository → code 에서 ssh 주소 복사
+
+terminal에서: 저장 폴더에서 git clone [주소 붙여넣기]
+
+clone 완료
+
+vscode 파일안에서 docs 폴더 생성 → docs 폴더 내부에 index.html 파일 생성 
+
+// push 해서 파일이 잘 올라가는지 확인
 # diranty (diranty)
 
 diranty
