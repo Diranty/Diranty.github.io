@@ -16,6 +16,10 @@ Diranty서비스는 소비자가 구매한 물품의 보증서와 영수증을 �
   <img width="808" alt="4" src="https://user-images.githubusercontent.com/73805782/102321942-b1d9a180-3fc1-11eb-94bb-82a5e00eec99.png">
 </div>
 
+# 📽 시연 영상
+![시연영상](https://user-images.githubusercontent.com/73805782/102329053-3d0b6500-3fcb-11eb-9350-98fe53f50062.gif)
+
+
 # 🂠 서비스 구조 및 API 활용
 <img width="817" alt="5" src="https://user-images.githubusercontent.com/73805782/102321946-b2723800-3fc1-11eb-8c59-16bcd8ac09ba.png">
 
