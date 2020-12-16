@@ -7,10 +7,10 @@ Diranty서비스는 소비자가 구매한 물품의 보증서와 영수증을 �
 소비자의 입장에서 상품의 보증서와 영수증을 관리하기가 번거롭고, 대면 A/S서비스는 시간과 금전적인 비용이 발생하게 되어 불편함이 있다.
 공급자의 경우, 비대면 A/S채널 부재로 인한 민원이 발생하고, 보증서 재발급의 요청이 빈번하게 발생하게 된다.
 따라서 농협 API를 이용하여 (카드내역조회, 간편결제) 보증서/영수증을 사진으로 저장/관리하고, 비대면 A/S 서비스를 제공받으며, 보증서와 정품 구매내역 확인이 인정된 안전한 중고거래 까지 가능한 서비스를 만들고자 한다.
+<br/>
+<br/>
+<br/>
 
-\
-\
-\
 # 📱 어플리케이션 서비스 설명
 <div>
   <img width="844" alt="1" src="https://user-images.githubusercontent.com/73805782/102321921-aab29380-3fc1-11eb-94e0-6eba3fa9815a.png">
@@ -19,24 +19,27 @@ Diranty서비스는 소비자가 구매한 물품의 보증서와 영수증을 �
   <img width="808" alt="4" src="https://user-images.githubusercontent.com/73805782/102321942-b1d9a180-3fc1-11eb-94bb-82a5e00eec99.png">
 </div>
 
-\
-\
-\
-\
+<br/>
+<br/>
+<br/>
+<br/>
+
 # 📽 시연 영상
 https://drive.google.com/file/d/1Lxnj21wkBl-Z-P8uJwiiEEk-HJs60PKB/view?usp=sharing
-\
-\
-\
+<br/>
+<br/>
+<br/>
+
 # 🂠 서비스 구조 및 API 활용
 <img width="817" alt="5" src="https://user-images.githubusercontent.com/73805782/102321946-b2723800-3fc1-11eb-8c59-16bcd8ac09ba.png">
-\
-\
-\
+<br/>
+<br/>
+<br/>
+
 # Quasar 프로젝트 시작 전
 ## github 초기 환경 설정
+<br/>
 
-\
 git hub 개인 계정 가입
 New organization → New repository 생성
 ``` 
@@ -111,10 +114,9 @@ build: {
       distDir: 'docs',    //추가
 ```
 그 후 yarn build 후 commit 하고 push 하게 되면 docs 폴더에 생성 
-
-\
-\
-\
+<br/>
+<br/>
+<br/>
 
 ## ssh 설정
 SSH(Secure Shell Protocol)란 네트워크 프로토콜의 하나로 암호화되어 안전하게 통신할때 사용되는 프로토콜입니다.
@@ -133,9 +135,9 @@ ssh-keygen -t rsa -b 4096 -C "john.doe@weperson.macbook"
 -b: 생성할 키 비트수. 기본값이 2048. 더 강력한 암호화를 위해 4096을 설정합니다.
 -C: 주석. 이름@회사명.호스트 형식으로 작성하면 나중에 구분하기가 쉽습니다.
 
-\
-\
-\
+<br/>
+<br/>
+<br/>
 
 # diranty (diranty)
 
